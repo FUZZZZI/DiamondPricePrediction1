@@ -96,3 +96,39 @@ os.chdir("C:/Users/y0vwts9/OneDrive - Deere & Co/Y0VWTS9/Python/ML Project/Diamo
 
 #########################################
 # Creating Project structure
+# Create new folders
+# 1. artifacts: pickle file, models, dataset, intermediate files, whatever you want to save in HDD, preprocessed data, FE files
+# 2. notebooks: EDA, FE, model training in jupyter
+    # a. data: file
+# 3. src (already created): Entire end to end ML project modules
+
+# In Jupyter notebook EDA -> FE -> FS -> Model Training -> Model Hyperparameter tuning -> Deployment of models
+# In industry, this process is not one time so it should be automated so create pipelines
+# 1. Training Pipelines (generally triggers in every 20days, 30 days)
+# 2. Prediction Pipelines
+
+# Training Pipelines Components:
+    # 1. Data Ingestion: Reading datasets from source (SQL, MongoDB, Api, etc.)
+    # 2. Data Transformation: Handling Null, missing, outliers, data transformation, creating a pipeline for FE
+    # 3. Model Trainer: train with multiple models
+    # 4. Model Evaluation: 
+
+# Prediction Pipelines:
+    # Api exposed to the same model deployed in cloud
+
+# Create tow folders in src
+# components
+    # __init__.py
+    # data_ingestion.py
+    # data_transformation.py
+    # model_trainer.py
+# pipelines
+    # __init__.py
+    # training_pipeline.py
+    # prediction_pipeline.py
+
+# Create utils.py file: contains all common functionalities required for the project (creating pickle file, read the csv, uploading file to database, read file from database)
+
+# Create logger.py & exception.py
+
+# upload the changes to github   #Note: artifacts & notebooks are empty folders so not uploaded
