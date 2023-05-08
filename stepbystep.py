@@ -144,3 +144,13 @@ os.chdir("C:/Users/y0vwts9/OneDrive - Deere & Co/Y0VWTS9/Python/ML Project/Diamo
 
 # conda install -c conda-forge jupyter_contrib_nbextensions -- for collapsible codes in jupyter
 # pip install ipykernel  --- helps to open code in Jupyter from ipynb created in vscode
+
+#-e .
+#Commenting as every time we run this txt it creates a new package.
+#It is meant to be installed for first time only.
+
+#######################################
+# Data Ingestion Diamond Price Pred
+# data -> data ingestion (train & test)-> training & test file at some path (stored in artifacts)
+
+# Write code in data_ingestion.py and then in training_pipline.py

@@ -1,7 +1,8 @@
 pandas
 numpy
 flask
-seaborn
+imblearn
+scikit-learn
 #-e .
 #Commenting as every time we run this txt it creates a new package.
 #It is meant to be installed for first time only.
