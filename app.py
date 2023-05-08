@@ -68,8 +68,13 @@ os.chdir("C:/Users/y0vwts9/OneDrive - Deere & Co/Y0VWTS9/Python/ML Project/Diamo
 # git init
 
 #create two files README.md & .gitignore
+# Add below code to it
+# =============================================================================
+# # Requirements
+# venv/
+# =============================================================================
 
-# git add README.md
+# git add README.md or use git add .
 # git commit -m "first commit"
 # git branch -M main
 # git remote add origin https://github.com/FUZZZZI/DiamondPricePrediction1.git
@@ -82,3 +87,5 @@ os.chdir("C:/Users/y0vwts9/OneDrive - Deere & Co/Y0VWTS9/Python/ML Project/Diamo
 # git branch -M main
 # git push -u origin main
 # =============================================================================
+
+# now copy the code form new .gitignore file to our file and replace the existing text
