@@ -116,7 +116,7 @@ os.chdir("C:/Users/y0vwts9/OneDrive - Deere & Co/Y0VWTS9/Python/ML Project/Diamo
 # Prediction Pipelines:
     # Api exposed to the same model deployed in cloud
 
-# Create tow folders in src
+# Create two folders in src
 # components
     # __init__.py
     # data_ingestion.py
@@ -131,4 +131,16 @@ os.chdir("C:/Users/y0vwts9/OneDrive - Deere & Co/Y0VWTS9/Python/ML Project/Diamo
 
 # Create logger.py & exception.py
 
-# upload the changes to github   #Note: artifacts & notebooks are empty folders so not uploaded
+# upload the changes to github   
+#Note: artifacts & notebooks are empty folders so not uploaded, git ignore ignores them
+
+#######################################
+# Project Logging & Exception Handling
+# These will be generic to the project
+
+#######################################
+# EDA, FE & Model Training
+# Include the csv file in data folder & create EDA and Model training.ipynb files in jupyter
+
+# conda install -c conda-forge jupyter_contrib_nbextensions -- for collapsible codes in jupyter
+# pip install ipykernel  --- helps to open code in Jupyter from ipynb created in vscode

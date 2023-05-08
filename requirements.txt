@@ -1,4 +1,7 @@
 pandas
 numpy
 flask
--e .
+seaborn
+#-e .
+#Commenting as every time we run this txt it creates a new package.
+#It is meant to be installed for first time only.
