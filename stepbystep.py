@@ -89,3 +89,10 @@ os.chdir("C:/Users/y0vwts9/OneDrive - Deere & Co/Y0VWTS9/Python/ML Project/Diamo
 # =============================================================================
 
 # now copy the code form new .gitignore file to our file and replace the existing text
+# To upload/refresh it, follow the steps
+# git add .
+# git commit -m "second commit"
+# git push -u origin main
+
+#########################################
+# Creating Project structure
